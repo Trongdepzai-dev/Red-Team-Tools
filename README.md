@@ -1,12 +1,12 @@
-[source: 1] # Công cụ Red Team
+# Công cụ Red Team
 
 <p align="center">
 <img src="[https://user-images.githubusercontent.com/100603074/210680426-20a92131-56f9-43ad-be82-f449e3215dda.png](https://user-images.githubusercontent.com/100603074/210680426-20a92131-56f9-43ad-be82-f449e3215dda.png)" height="300">
 </p>
 
 Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 công cụ** và **tài nguyên** có thể hữu ích cho các **hoạt động red team**.
-[source: 2] Một số công cụ có thể được thiết kế đặc biệt cho **hoạt động red team**, trong khi những công cụ khác mang tính tổng quát hơn và có thể được điều chỉnh để sử dụng trong **bối cảnh red team**.
-[source: 3] > 🔗 Nếu bạn là một **Blue Teamer**, hãy xem [BlueTeam-Tools](https://github.com/A-poc/BlueTeam-Tools)
+ Một số công cụ có thể được thiết kế đặc biệt cho **hoạt động red team**, trong khi những công cụ khác mang tính tổng quát hơn và có thể được điều chỉnh để sử dụng trong **bối cảnh red team**.
+ > 🔗 Nếu bạn là một **Blue Teamer**, hãy xem [BlueTeam-Tools](https://github.com/A-poc/BlueTeam-Tools)
 
 > **Cảnh báo**
 >
