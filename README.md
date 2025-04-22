@@ -1,6 +1,8 @@
-**RedTeam-Tools**
-<p align="center"> <img src="https://user-images.githubusercontent.com/100603074/210680426-20a92131-56f9-43ad-be82-f449e3215dda.png" height="300"> </p>
+[source: 1] # Công cụ Red Team
 
+<p align="center">
+<img src="[https://user-images.githubusercontent.com/100603074/210680426-20a92131-56f9-43ad-be82-f449e3215dda.png](https://user-images.githubusercontent.com/100603074/210680426-20a92131-56f9-43ad-be82-f449e3215dda.png)" height="300">
+</p>
 
 Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 công cụ** và **tài nguyên** có thể hữu ích cho các **hoạt động red team**.
 [source: 2] Một số công cụ có thể được thiết kế đặc biệt cho **hoạt động red team**, trong khi những công cụ khác mang tính tổng quát hơn và có thể được điều chỉnh để sử dụng trong **bối cảnh red team**.
@@ -194,3 +196,112 @@ Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 cô
         </ul>
     </ul>
 </details>
+<details open>
+    <summary><b>Truy cập Thông tin Xác thực (Credential Access)</b> 11 công cụ</summary>
+    <ul>
+        <ul>
+            <li><b><a href="#mimikatz">**Mimikatz**</a></b><i> Trình trích xuất **thông tin xác thực Windows (Windows credential)**</i></li>
+            <li><b><a href="#lazagne">**LaZagne**</a></b><i> Trình trích xuất **mật khẩu cục bộ (local password extractor)**</i></li>
+        
+[source: 25]     <li><b><a href="#hashcat">**hashcat**</a></b><i> Bẻ khóa **hash mật khẩu (Password hash cracking)**</i></li>
+            <li><b><a href="#john-the-ripper">**John the Ripper**</a></b><i> Bẻ khóa **hash mật khẩu (Password hash cracking)**</i></li>
+	        <li><b><a href="#scomdecrypt">**SCOMDecrypt**</a></b><i> Công cụ **Giải mã Thông tin Xác thực SCOM (SCOM Credential Decryption)**</i></li>
+	        <li><b><a href="#nanodump">**nanodump**</a></b><i> Tạo **minidump tiến trình LSASS (LSASS process minidump)**</i></li>
+<li><b><a href="#eviltree">**eviltree**</a></b><i> Bản làm lại của Tree cho việc **khám phá thông tin xác thực (credential discovery)**</i></li>
+	        <li><b><a href="#seeyoucm-thief">**SeeYouCM-Thief**</a></b><i> Phân tích **tệp cấu hình hệ thống điện thoại Cisco (Cisco phone systems configuration file parsing)**</i></li>
+            <li><b><a href="#mailsniper">**MailSniper**</a></b><i> Công cụ Tìm kiếm Thư **Microsoft Exchange (Microsoft Exchange Mail Searcher)**</i></li>
+  
+[source: 26]           <li><b><a href="#sharpchromium">**SharpChromium**</a></b><i> Trình trích xuất **Cookie**, **lịch sử (history)** và **thông tin đăng nhập đã lưu (saved login)** của **Chromium**</i></li>
+            <li><b><a href="#dploot">**dploot**</a></b><i> Thu thập **DPAPI (DPAPI looting)** từ xa bằng **Python**</i></li>
+        </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Khám phá (Discovery)</b> 6 công cụ</summary>
+    <ul>
+        <ul>
+            <li><b><a href="#pcredz">**PCredz**</a></b><i> Khám phá **Thông tin xác thực (Credential discovery)** từ **PCAP**/**giao diện trực tiếp (live interface)**</i></li>
+            <li><b><a href="#pingcastle">**PingCastle**</a></b><i> Công cụ đánh giá **Active Directory** [source: 27] (Active directory assessor)</i></li>
+    	    <li><b><a href="#seatbelt">**Seatbelt**</a></b><i> **Trình quét lỗ hổng (vulnerability scanner)** cục bộ</i></li>
+<li><b><a href="#adrecon">**ADRecon**</a></b><i> **Thu thập thông tin Active Directory (Active directory recon)**</i></li>
+    	    <li><b><a href="#adidnsdump">**adidnsdump**</a></b><i> **Dump DNS tích hợp Active Directory (Active Directory Integrated DNS dumping)**</i></li>
+    	    <li><b><a href="#scavenger">**scavenger**</a></b><i> Công cụ quét để lùng sục hệ thống (scavenging systems)</i></li>
+        </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Di chuyển Ngang (Lateral Movement)</b> 12 công cụ</summary>
+    <ul>
+        <ul>
+            <li><b><a href="#crackmapexec">**crackmapexec**</a></b><i> Bộ công cụ **di chuyển ngang (lateral movement)** **Windows**/**Active Directory** [source: 28] </i></li>
+            <li><b><a href="#wmiops">**WMIOps**</a></b><i> **Lệnh WMI từ xa (WMI remote commands)**</i></li>
+            <li><b><a href="#powerlessshell">**PowerLessShell**</a></b><i> **PowerShell** từ xa không cần **PowerShell**</i></li>
+            <li><b><a href="#psexec">**PsExec**</a></b><i> Công cụ thay thế **telnet** hạng nhẹ</i></li>
+            <li><b><a href="#liquidsnake">**LiquidSnake**</a></b><i> **Di chuyển ngang không cần tệp (Fileless lateral movement)**</i></li>
+            <li><b><a href="#enabling-rdp">Bật RDP</a></b><i> Lệnh bật **RDP Windows (Windows RDP)**</i></li>
+            <li><b><a href="#upgrading-shell-to-meterpreter">Nâng cấp shell lên 
+[source: 29] **meterpreter**</a></b><i> Cải thiện **Reverse shell**</i></li>
+<li><b><a href="#forwarding-ports">Chuyển tiếp Cổng (Forwarding Ports)</a></b><i> Lệnh **chuyển tiếp cổng (port forward)** cục bộ</i></li>
+            <li><b><a href="#jenkins-reverse-shell">**Reverse shell** **Jenkins**</a></b><i> Lệnh **shell Jenkins**</i></li>
+            <li><b><a href="#adfspoof">**ADFSpoof**</a></b><i> Giả mạo **token bảo mật AD FS (AD FS security tokens)**</i></li>
+            <li><b><a href="#kerbrute">**kerbrute**</a></b><i> Công cụ thực hiện **bruteforce Kerberos pre-auth (Kerberos pre-auth bruteforcing)**</i></li>
+            <li><b><a href="#coercer">**Coercer**</a></b><i> Ép buộc **máy chủ Windows (Windows server)** xác thực</i></li>
+    
+[source: 30]         <li><b><a href="#wmiops">**WMIOps**</a></b><i> **Lệnh WMI từ xa (WMI remote commands)**</i></li>
+        </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Thu thập (Collection)</b> 3 công cụ</summary>
+    <ul>
+        <ul>
+            <li><b><a href="#bloodhound">**BloodHound**</a></b><i> Trực quan hóa **Active Directory (Active directory visualisation)**</i></li>
+            <li><b><a href="#snaffler">**Snaffler**</a></b><i> Công cụ thu thập **thông tin xác thực Active Directory (Active directory credential)**</i></li>
+            <li><b><a href="#linwinpwn">**linWinPwn**</a></b><i> **Liệt kê Active Directory (Active Directory Enumeration)** và kiểm tra **Lỗ hổng (Vulnerability checks)**</i></li>
+     
+[source: 31]    </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Chỉ huy và Điều khiển (Command and Control)</b> 9 công cụ</summary>
+    <ul>
+        <ul>
+            <li><b><a href="#living-off-trusted-sites-project">**Living Off Trusted Sites Project**</a></b><i> Tận dụng các tên miền hợp pháp cho **C2** của bạn</i></li>
+            <li><b><a href="#havoc">**Havoc**</a></b><i> **Framework chỉ huy và điều khiển (Command and control framework)**</i></li>
+    	    <li><b><a href="#covenant">**Covenant**</a></b><i> **Framework chỉ huy và điều khiển (.NET) (Command and control framework (.NET))**</i></li>
+    	    <li><b><a href="#merlin">**Merlin**</a></b><i> **Framework chỉ huy và điều khiển (Golang) (Command and control framework (Golang))**</i></li>
+    
+[source: 32] 	    <li><b><a href="#metasploit-framework">**Metasploit Framework**</a></b><i> **Framework chỉ huy và điều khiển (Ruby) (Command and control framework (Ruby))**</i></li>
+<li><b><a href="#pupy">**Pupy**</a></b><i> **Framework chỉ huy và điều khiển (Python) (Command and control framework (Python))**</i></li>
+    	    <li><b><a href="#brute-ratel">**Brute Ratel**</a></b><i> **Framework chỉ huy và điều khiển ($$$) (Command and control framework ($$$))**</i></li>
+            <li><b><a href="#nimplant">**NimPlant**</a></b><i> **Implant C2 (C2 implant)** được viết bằng **Nim**</i></li>
+            <li><b><a href="#hoaxshell">**Hoaxshell**</a></b><i> **Reverse shell PowerShell**</i></li>
+        </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Rút trích Dữ liệu (Exfiltration)</b> 5 công cụ</summary>
+    <ul>
+   
+[source: 33]      <ul>
+	        <li><b><a href="#dnscat2">**Dnscat2**</a></b><i> **C2** thông qua **tạo đường hầm DNS (DNS tunneling)**</i></li>
+	        <li><b><a href="#cloakify">**Cloakify**</a></b><i> **Chuyển đổi dữ liệu (Data transformation)** cho việc **rút trích (exfiltration)**</i></li>
+            <li><b><a href="#pyexfil">**PyExfil**</a></b><i> **PoC Rút trích Dữ liệu (Data exfiltration PoC)**</i></li>
+            <li><b><a href="#powershell-rat">**Powershell RAT**</a></b><i> **Backdoor** dựa trên **Python**</i></li>
+            <li><b><a href="#gd-thief">**GD-Thief**</a></b><i> Rút trích dữ liệu **Google Drive (Google drive exfiltration)**</i></li>
+        </ul>
+    </ul>
+</details>
+<details open>
+    <summary><b>Gây ảnh hưởng (Impact)</b> 4 công cụ</summary>
+ 
+[source: 34]    <ul>
+        <ul>
+            <li><b><a href="#conti-pentester-guide-leak">**Conti Pentester Guide Leak**</a></b><i> Bộ công cụ chi nhánh của nhóm **ransomware Conti**</i></li>
+            <li><b><a href="#slowloris">**SlowLoris**</a></b><i> **Tấn công từ chối dịch vụ (denial of service)** đơn giản</i></li>
+            <li><b><a href="#usbkill">**usbkill**</a></b><i> **Công tắc hủy chống điều tra số (Anti-forensic kill-switch)**</i></li>
+            <li><b><a href="#keytap">**Keytap**</a></b><i> Lấy các phím đã nhấn từ âm thanh gõ phím</i></li>
+        </ul>
+    </ul>
+</details>
+[source: 35]
