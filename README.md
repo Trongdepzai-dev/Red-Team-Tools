@@ -11,7 +11,7 @@ Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 cô
 > **Cảnh báo**
 >
 > *Các tài liệu trong kho lưu trữ này chỉ dành cho mục đích thông tin và giáo dục.
-[source: 4] Chúng không nhằm mục đích sử dụng trong bất kỳ hoạt động bất hợp pháp nào.*
+ Chúng không nhằm mục đích sử dụng trong bất kỳ hoạt động bất hợp pháp nào.*
 
 > **Lưu ý**
 >
@@ -28,26 +28,26 @@ Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 cô
         	<li><b><a href="#google-translate-for-phishing">**Google translate** cho **phishing**</a></b><i> @malmoeb</i></li>
             <li><b><a href="#hiding-the-local-admin-account">Ẩn **tài khoản admin cục bộ**</a></b><i> @Alh4zr3d</i></li>
   
-[source: 5]           <li><b><a href="#cripple-windows-defender-by-deleting-signatures">Làm tê liệt **windows defender** bằng cách xóa **signatures**</a></b><i> @Alh4zr3d</i></li>
+           <li><b><a href="#cripple-windows-defender-by-deleting-signatures">Làm tê liệt **windows defender** bằng cách xóa **signatures**</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#enable-multiple-rdp-sessions-per-user">Cho phép nhiều phiên **RDP** cho mỗi người dùng</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#sysinternals-psexecexe-local-alternative">Giải pháp thay thế cục bộ cho **Sysinternals** **PsExec.exe**</a></b><i> @GuhnooPlusLinux</i></li>
             <li><b><a href="#live-off-the-land-port-scanner">**Port scanner** theo kiểu **Live off the land**</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#proxy-aware-powershell-downloadstring">**PowerShell DownloadString** nhận biết **Proxy**</a></b><i> @Alh4zr3d</i></li>
            
-[source: 6]  <li><b><a href="#looking-for-internal-endpoints-in-browser-bookmarks">Tìm kiếm các **endpoint** nội bộ trong bookmark trình duyệt</a></b><i> @Alh4zr3d</i></li>
+  <li><b><a href="#looking-for-internal-endpoints-in-browser-bookmarks">Tìm kiếm các **endpoint** nội bộ trong bookmark trình duyệt</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#query-dns-records-for-enumeration">Truy vấn bản ghi **DNS** để thu thập thông tin</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#unquoted-service-paths-without-powerup">**Đường dẫn dịch vụ không được trích dẫn** mà không cần **PowerUp**</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#bypass-a-disabled-command-prompt-with-k">Vượt qua **command prompt** bị vô hiệu hóa bằng **/k**</a></b><i> Martin Sohn Christensen</i></li>
             <li><b><a href="#stop-windows-defender-deleting-mimikatzexe">Ngăn chặn **windows defender** xóa **mimikatz.exe**</a></b><i> @GuhnooPlusLinux</i></li>
             <li><b><a href="#check-if-you-are-in-a-virtual-machine">Kiểm tra xem 
-[source: 7] bạn có đang ở trong **máy ảo** hay không</a></b><i> @dmcxblue</i></li>
+ bạn có đang ở trong **máy ảo** hay không</a></b><i> @dmcxblue</i></li>
             <li><b><a href="#enumerate-applocker-rules">Liệt kê các quy tắc **AppLocker**</a></b><i> @Alh4zr3d</i></li>
             <li><b><a href="#cmd-shortcut-with-6-pixels-via-mspaint">Shortcut **CMD** với 6 pixel thông qua **mspaint**</a></b><i> PenTestPartners</i></li>
             <li><b><a href="#link-spoofing-with-preventdefault-javascript-method">**Giả mạo liên kết** bằng phương thức **JavaScript** **PreventDefault**</a></b><i> </i></li>
             <li><b><a href="#check-smb-firewall-rules-with-responder">Kiểm tra quy tắc tường lửa **SMB** bằng **Responder**</a></b><i> @malmoeb</i></li>
             <li><b><a href="#disable-av-with-sysinternals-pssuspend">Vô hiệu hóa **AV** bằng **SysInternals** **PsSuspend**</a></b><i> @0gtweet</i></li>
   
-[source: 8]       </ul>
+       </ul>
     </ul>        
 </details>
 <details open>
@@ -58,19 +58,19 @@ Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 cô
             <li><b><a href="#reconftw">**reconftw**</a></b><i> Công cụ tự động **thu thập thông tin tên miền phụ (subdomain)** và **lỗ hổng (vulnerability recon)**</i></li>
             <li><b><a href="#subzy">**subzy**</a></b><i> Công cụ kiểm tra **lỗ hổng chiếm quyền tên miền phụ (Subdomain takeover vulnerability)**</i></li>
         
-[source: 9]     <li><b><a href="#smtp-user-enum">**smtp-user-enum**</a></b><i> **Liệt kê người dùng SMTP (SMTP user enumeration)**</i></li>
+     <li><b><a href="#smtp-user-enum">**smtp-user-enum**</a></b><i> **Liệt kê người dùng SMTP (SMTP user enumeration)**</i></li>
             <li><b><a href="#crtsh---httprobe---eyewitness">**crt.sh** -> **httprobe** -> **EyeWitness**</a></b><i> Tự động chụp ảnh màn hình tên miền</i></li>
             <li><b><a href="#jsendpoints">**jsendpoints**</a></b><i> Trích xuất các liên kết **DOM** của trang</i></li>
             <li><b><a href="#nuclei">**nuclei**</a></b><i> **Trình quét lỗ hổng (Vulnerability scanner)**</i></li>
             <li><b><a href="#certsniff">**certSniff**</a></b><i> Công cụ dò từ khóa trong **log minh bạch chứng chỉ (Certificate transparency log)**</i></li>
             <li><b><a href="#gobuster">**gobuster**</a></b><i> **Brute force** đường dẫn trang web</i></li>
-[source: 10]        <li><b><a href="#feroxbuster">**feroxbuster**</a></b><i> Công cụ khám phá nội dung nhanh được viết bằng **Rust**</i></li>
+        <li><b><a href="#feroxbuster">**feroxbuster**</a></b><i> Công cụ khám phá nội dung nhanh được viết bằng **Rust**</i></li>
             <li><b><a href="#cloudbrute">**CloudBrute**</a></b><i> **Brute force** hạ tầng đám mây (**Cloud**)</i></li>
             <li><b><a href="#dnsrecon">**dnsrecon**</a></b><i> Liệt kê bản ghi **DNS**</i></li>
             <li><b><a href="#shodanio">**Shodan.io**</a></b><i> Cơ sở tri thức về các hệ thống public</i></li>
             <li><b><a href="#aort">**AORT** (All in One Recon Tool)</a></b><i> **Liệt kê tên miền phụ (Subdomain enumeration)**</i></li>
             <li><b><a href="#spoofcheck">**spoofcheck**</a></b><i> 
-[source: 11] Công cụ kiểm tra bản ghi **SPF**/**DMARC**</i></li>
+ Công cụ kiểm tra bản ghi **SPF**/**DMARC**</i></li>
             <li><b><a href="#awsbucketdump">**AWSBucketDump**</a></b><i> Liệt kê **bucket S3 (S3 bucket enumeration)**</i></li>
             <li><b><a href="#githarvester">**GitHarvester**</a></b><i> Công cụ tìm kiếm **thông tin xác thực GitHub (GitHub credential)**</i></li>
             <li><b><a href="#trufflehog">**truffleHog**</a></b><i> Công cụ quét **thông tin xác thực GitHub (GitHub credential scanner)**</i></li>
@@ -78,7 +78,7 @@ Kho lưu trữ **github** này chứa một bộ sưu tập gồm **hơn 150 cô
             <li><b><a href="#enum4linux">**enum4linux**</a></b><i> Liệt kê thông tin **Windows**/**Samba (samba enumeration)**</i></li>
             <li><b><a href="#skanuvaty">**skanuvaty**</a></b><i> **Trình quét dns**/**mạng (network)**/**cổng (port scanner)** cực nhanh</i></li>
    
-[source: 12]          <li><b><a href="#metabigor">**Metabigor**</a></b><i> Công cụ **OSINT** không cần **API**</i></li>
+          <li><b><a href="#metabigor">**Metabigor**</a></b><i> Công cụ **OSINT** không cần **API**</i></li>
             <li><b><a href="#gitrob">**Gitrob**</a></b><i> Công cụ quét thông tin nhạy cảm trên **GitHub**</i></li>
             <li><b><a href="#gowitness">**gowitness**</a></b><i> Tiện ích chụp ảnh màn hình web sử dụng **Chrome Headless**</i></li>
         </ul>
